@@ -2,7 +2,7 @@
 
 A clean and beautiful **Flutter To-Do App** built using `Provider` for state management. This app includes a polished **authentication flow, dashboard, task management screens**, and modern UI design – all structured with clean architecture.
 
-##  Features
+## 📱 Features
 
 - ✅ Beautiful splash screen with animated transition
 - 👤 Signup screen with name, email & password
@@ -13,17 +13,20 @@ A clean and beautiful **Flutter To-Do App** built using `Provider` for state man
 - 🔄 State management using `Provider`
 - 🎨 Material 3 styling with gradients & rounded corners
 
----
 
-##  Screenshots
 
-| Signup Screen | Dashboard | Add Task |
-|---------------|-----------|----------|
-| ![Signup](screenshots/signup.png) | ![Dashboard](screenshots/dashboard.png) | ![Add Task](screenshots/add_task.png) |
+## 🔗 Screenshots
 
-| Home Screen | Task Details |
-|--------------|----------------|
-| ![Home](screenshots/home.png) | ![Details](screenshots/task_details.png) |
+<p float="left">
+  <img src="screenshots/signup.png" width="250" />
+  <img src="screenshots/dashboard.png" width="250" />
+  <img src="screenshots/add_task.png" width="250" />
+</p>
+
+<p float="left">
+  <img src="screenshots/home.png" width="250" />
+  <img src="screenshots/task_details.png" width="250" />
+</p>
 
 ---
 
@@ -53,7 +56,7 @@ lib/
 
 ---
 
-## 🛠 Packages Used
+## 🛠️ Packages Used
 
 ```yaml
 dependencies:
@@ -64,7 +67,7 @@ dependencies:
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/your-username/taska_app
@@ -75,7 +78,7 @@ flutter run
 
 ---
 
-##  Notes
+## 📌 Notes
 
 - No backend or Firebase used – local state only
 - Fully extendable to use Firebase, local DB, etc.
@@ -83,7 +86,7 @@ flutter run
 
 ---
 
-##  Developer
+## 👨‍💻 Developer
 
 Built by [Your Name] – feel free to fork and contribute 💜
 
