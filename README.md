@@ -1,16 +1,92 @@
-# todo_list_app_final
+#  Taska – Modern To-Do App with Provider (Flutter)
 
-A new Flutter project
+A clean and beautiful **Flutter To-Do App** built using `Provider` for state management. This app includes a polished **authentication flow, dashboard, task management screens**, and modern UI design – all structured with clean architecture.
 
-## Getting Started
+##  Features
 
-This project is a starting point for a Flutter application.
+- ✅ Beautiful splash screen with animated transition
+- 👤 Signup screen with name, email & password
+- 🏠 Modern dashboard with gradient cards
+- 📋 Add/Edit/View Tasks with custom fields
+- 🎯 Task tagging with priority & due date
+- ☑️ Mark as completed / delete task
+- 🔄 State management using `Provider`
+- 🎨 Material 3 styling with gradients & rounded corners
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Signup Screen | Dashboard | Add Task |
+|---------------|-----------|----------|
+| ![Signup](screenshots/signup.png) | ![Dashboard](screenshots/dashboard.png) | ![Add Task](screenshots/add_task.png) |
+
+| Home Screen | Task Details |
+|--------------|----------------|
+| ![Home](screenshots/home.png) | ![Details](screenshots/task_details.png) |
+
+---
+
+## 📂 Folder Structure
+
+```bash
+lib/
+├── main.dart
+├── models/
+│   └── task_model.dart
+├── provider/
+│   └── task_provider.dart
+├── screens/
+│   ├── splash_screen.dart
+│   ├── signup_screen.dart
+│   ├── dashboard_screen.dart
+│   ├── home_screen.dart
+│   ├── add_task_screen.dart
+│   ├── edit_task_screen.dart
+│   └── task_detail_screen.dart
+├── widgets/
+│   ├── task_tile.dart
+│   └── custom_input_field.dart
+└── utils/
+    └── theme.dart
+```
+
+---
+
+## 🛠 Packages Used
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+```
+
+---
+
+##  Getting Started
+
+```bash
+git clone https://github.com/your-username/taska_app
+cd taska_app
+flutter pub get
+flutter run
+```
+
+---
+
+##  Notes
+
+- No backend or Firebase used – local state only
+- Fully extendable to use Firebase, local DB, etc.
+- App works offline – uses `Provider` to manage app-wide state
+
+---
+
+##  Developer
+
+Built by [Your Name] – feel free to fork and contribute 💜
+
+---
+
+**Feel free to star ⭐ the repo if you like the project!**
