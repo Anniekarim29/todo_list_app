@@ -1,8 +1,8 @@
-#  Taska – Modern To-Do App with Provider (Flutter)
+#  A To-Do list App with Provider (Flutter)
 
-A clean and beautiful **Flutter To-Do App** built using `Provider` for state management. This app includes a polished **authentication flow, dashboard, task management screens**, and modern UI design – all structured with clean architecture.
+A clean and beautiful **Flutter To-Do list App** built using `Provider` for state management. This app includes a polished **authentication flow, dashboard, task management screens**, and modern UI design – all structured with clean architecture.
 
-## 📱 Features
+##  Features
 
 - ✅ Beautiful splash screen with animated transition
 - 👤 Signup screen with name, email & password
@@ -15,7 +15,7 @@ A clean and beautiful **Flutter To-Do App** built using `Provider` for state man
 
 
 
-## 🔗 Screenshots
+##  Screenshots
 
 <p float="left">
   <img src="screenshots/signup.png" width="250" />
@@ -67,7 +67,7 @@ dependencies:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ```bash
 git clone https://github.com/your-username/taska_app
@@ -78,7 +78,7 @@ flutter run
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - No backend or Firebase used – local state only
 - Fully extendable to use Firebase, local DB, etc.
@@ -86,9 +86,9 @@ flutter run
 
 ---
 
-## 👨‍💻 Developer
+##  Developer
 
-Built by [Your Name] – feel free to fork and contribute 💜
+Built by Annie Karim  – feel free to fork and contribute 💜
 
 ---
 
